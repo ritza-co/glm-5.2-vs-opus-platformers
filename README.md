@@ -44,6 +44,9 @@ own `README.md` describing the game, controls, and how it works. You'll also fin
 
 ## Assets & license
 
+The game code in this repo is released under the [MIT License](LICENSE). It was
+written by the respective AI models for this comparison and is published here by
+[Ritza](https://ritza.co) alongside the [Tech Stackups article](https://techstackups.com/comparisons/glm-5.2-vs-opus/).
+
 The 3D models are from [Kenney's Platformer Kit](https://kenney.nl/assets/platformer-kit)
-(CC0). See each game's `assets/License.txt`. The game code itself was written by
-the respective AI models for this comparison.
+and are licensed CC0 (public domain), not MIT. See each game's `assets/License.txt`.
