@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Platformer (raw WebGL)</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #87ceeb;
+      font-family: -apple-system, system-ui, sans-serif;
+    }
+    #game {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      touch-action: none;
+    }
+    #hud {
+      position: fixed;
+      top: 14px;
+      left: 16px;
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.55);
+      pointer-events: none;
+      user-select: none;
+    }
+    #score {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    #controls {
+      margin-top: 6px;
+      font-size: 13px;
+      opacity: 0.9;
+      line-height: 1.5;
+    }
+    #banner {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0,0,0,0.7);
+      color: #fff;
+      padding: 18px 28px;
+      border-radius: 12px;
+      font-size: 24px;
+      font-weight: 700;
+      display: none;
+      text-align: center;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="hud">
+    <div id="score">Score: 0</div>
+    <div id="controls">
+      WASD / Arrows: move &nbsp;•&nbsp; Shift: run &nbsp;•&nbsp; Space: jump &nbsp;•&nbsp; Drag mouse: orbit camera &nbsp;•&nbsp; R: restart
+    </div>
+  </div>
+  <div id="banner"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

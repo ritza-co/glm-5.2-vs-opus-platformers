@@ -1,0 +1,1 @@
+Read your task file in this folder (the CLAUDE.md / AGENTS.md) and complete the task exactly as described. Follow it precisely: run ./timer.sh start as your very first step before anything else, build the game, and keep iterating until all 7 Definition-of-Done items genuinely pass and you have verified each one yourself. Only then run ./timer.sh end. Begin now.

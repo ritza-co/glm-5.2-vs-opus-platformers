@@ -1,0 +1,16 @@
+{
+  "name": "glm",
+  "version": "1.0.0",
+  "description": "A small, complete 3D platformer built from scratch with **raw WebGL2 + GLSL** (no game engines / 3D libraries). It parses Kenney's CC0 glTF/GLB Platformer Kit assets by hand, renders them with skinned animation, and runs solid AABB physics with a frame-rate-independent fixed timestep.",
+  "main": "dump_json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.61.0",
+    "pngjs": "^7.0.0"
+  }
+}

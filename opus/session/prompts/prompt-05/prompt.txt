@@ -1,0 +1,84 @@
+## Context Usage
+
+**Model:** claude-opus-4-8  
+**Tokens:** 186.6k / 1m (19%)
+
+### Estimated usage by category
+
+| Category | Tokens | Percentage |
+|----------|--------|------------|
+| System prompt | 4k | 0.4% |
+| System tools | 15.5k | 1.5% |
+| MCP tools (deferred) | 9.3k | 0.9% |
+| System tools (deferred) | 13.2k | 1.3% |
+| Memory files | 6.7k | 0.7% |
+| Skills | 2.5k | 0.3% |
+| Messages | 158k | 15.8% |
+| Free space | 813.4k | 81.3% |
+
+### MCP Tools
+
+| Tool | Server | Tokens |
+|------|--------|--------|
+| mcp__claude-in-chrome__browser_batch | claude-in-chrome | 568 |
+| mcp__claude-in-chrome__computer | claude-in-chrome | 1.8k |
+| mcp__claude-in-chrome__file_upload | claude-in-chrome | 428 |
+| mcp__claude-in-chrome__find | claude-in-chrome | 328 |
+| mcp__claude-in-chrome__form_input | claude-in-chrome | 286 |
+| mcp__claude-in-chrome__get_page_text | claude-in-chrome | 206 |
+| mcp__claude-in-chrome__gif_creator | claude-in-chrome | 886 |
+| mcp__claude-in-chrome__javascript_tool | claude-in-chrome | 414 |
+| mcp__claude-in-chrome__list_connected_browsers | claude-in-chrome | 412 |
+| mcp__claude-in-chrome__navigate | claude-in-chrome | 233 |
+| mcp__claude-in-chrome__read_console_messages | claude-in-chrome | 563 |
+| mcp__claude-in-chrome__read_network_requests | claude-in-chrome | 467 |
+| mcp__claude-in-chrome__read_page | claude-in-chrome | 534 |
+| mcp__claude-in-chrome__resize_window | claude-in-chrome | 250 |
+| mcp__claude-in-chrome__select_browser | claude-in-chrome | 152 |
+| mcp__claude-in-chrome__shortcuts_execute | claude-in-chrome | 299 |
+| mcp__claude-in-chrome__shortcuts_list | claude-in-chrome | 194 |
+| mcp__claude-in-chrome__switch_browser | claude-in-chrome | 187 |
+| mcp__claude-in-chrome__tabs_close_mcp | claude-in-chrome | 212 |
+| mcp__claude-in-chrome__tabs_context_mcp | claude-in-chrome | 290 |
+| mcp__claude-in-chrome__tabs_create_mcp | claude-in-chrome | 117 |
+| mcp__claude-in-chrome__upload_image | claude-in-chrome | 483 |
+
+### Memory Files
+
+| Type | Path | Tokens |
+|------|------|--------|
+| User | /Users/jameswhitford/.claude/CLAUDE.md | 342 |
+| Project | /Users/jameswhitford/ritza/techstackups/CLAUDE.md | 1.4k |
+| Project | /Users/jameswhitford/ritza/techstackups/james-workspace/CLAUDE.md | 2.5k |
+| Project | /Users/jameswhitford/ritza/techstackups/james-workspace/code/runs/opus/CLAUDE.md | 2.4k |
+
+### Skills
+
+| Skill | Source | Tokens |
+|-------|--------|--------|
+| bfl-image-gen | User | ~90 |
+| procedural-graphics | User | ~150 |
+| ritza-draft-media | User | ~60 |
+| ritza-project | User | ~40 |
+| ritza-prose | User | ~50 |
+| ritza-transcripts | User | ~60 |
+| scrape-docs | User | ~70 |
+| session | User | ~30 |
+| tinypng | User | ~30 |
+| add-article | Project | ~100 |
+| cross-post-medium | Project | ~60 |
+| deep-research | Built-in | ~160 |
+| update-config | Built-in | ~240 |
+| keybindings-help | Built-in | ~80 |
+| verify | Built-in | ~90 |
+| code-review | Built-in | ~120 |
+| simplify | Built-in | ~60 |
+| fewer-permission-prompts | Built-in | ~60 |
+| loop | Built-in | ~110 |
+| schedule | Built-in | ~130 |
+| claude-api | Built-in | ~360 |
+| claude-in-chrome | Built-in | ~180 |
+| run | Built-in | ~120 |
+| init | Built-in | ~20 |
+| review | Built-in | < 20 |
+| security-review | Built-in | ~30 |
